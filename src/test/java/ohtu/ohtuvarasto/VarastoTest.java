@@ -123,6 +123,6 @@ public class VarastoTest {
     @Test
     public void tekstiesitysToimii() {
         String str = varasto.toString();
-        assertEquals(str, "saldo2 = " + varasto.getSaldo() + ", vielä tilaa " + varasto.paljonkoMahtuu());
+        assertEquals(str, "saldo = " + varasto.getSaldo() + ", vielä tilaa " + varasto.paljonkoMahtuu());
     }
 }
